@@ -1,0 +1,14 @@
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+instance_data_dir: /Users/diehnmanuel/PycharmProjects/Diffusion-models/DreamBooth/output/Sessions/Manu/instance_images
+instance_prompt: picmd
+learning_rate: 1.0e-06
+lr_scheduler: linear
+lr_warmup_steps: 0
+max_train_steps: 350
+output_dir: /Users/diehnmanuel/PycharmProjects/Diffusion-models/DreamBooth/output/models/Manu
+pretrained_model_name_or_path: /Users/diehnmanuel/PycharmProjects/Diffusion-models/stable-diffusion-v1-5
+resolution: 512
+seed: 987305
+train_batch_size: 1
+use_8bit_adam: true
